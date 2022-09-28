@@ -1,0 +1,104 @@
+
+body{
+    font-size: 14px;
+    background-image: url('./images/pokelogo.png') ;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    padding: 300px 100px;
+    background-position: top center;
+    background-color: #47D0C9;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.pokeimg{
+    width: 800px;
+    height: 420px;
+}
+
+.list{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+li{
+    position: relative;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #339F8A;
+    margin-bottom: 40px ;
+    border-radius: 10px;
+    background-color: #CFE2FF;
+    
+
+}
+
+span{
+    color: #fff;
+    font-weight: 600;
+    padding: 2px;
+    background-color: #DD3746;
+    border-radius: 40px;
+    display: block;
+    width: 100%;
+    max-width: 40px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: -20px;
+}
+h2{
+    color: #0C596E;
+    border-bottom: 1px solid  #339F8A;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+    background-color: #CFF4FC;
+    margin: 0;
+}
+img{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+p{  border-top: 1px solid  #339F8A;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 18px;
+    margin: 0;
+    background-color: #FBC8FF;
+    color: #755354;
+    font-size: 16px;
+}
+
+strong{
+    color: #111;
+    font-weight: 600;
+    padding: 2px;
+    background-color: #FAC208;
+    border-radius: 40px;
+    display: block;
+    width: 100%;
+    max-width: 40px;
+    border: 1px solid transparent;
+    position: absolute;
+    bottom: 42px;
+    right: -20px;
+}
+
+.pokeimg{
+    width: 800px;
+    height: 420px;
+}
